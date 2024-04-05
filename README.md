@@ -10,17 +10,18 @@ IndEL is the first Indonesian Entity Linking (EL) benchmark dataset for general 
 The manual annotation of IndEL, in both its general and specific domains, was carried out by non-volunteer native speakers. Specifically for the specific domain (pertaining to the Indonesian translation of the Quran), the annotators comprised students in their fourth year of bachelor studies from the Quran and Tafseer department at State Islamic University Syarif Hidayatullah Jakarta. 
 
 ## Experiments
-To showcase the utility of IndEL as a benchmark dataset, it was used to evaluate cutting-edge EL systems in multilingual settings using [the GERBIL framework](https://github.com/dice-group/gerbil). The EL systems included [Babelfy](http://babelfy.org/), [DBpedia Spotlight](https://www.dbpedia-spotlight.org/), [MAG](https://github.com/dice-group/AGDISTIS), and [WAT](https://sobigdata.d4science.org/web/tagme/wat-api). Steps to perform the evaluation can be found [here](https://github.com/dice-group/gerbil/wiki/How-to-setup-GERBIL). Evaluation results are as follows:
-|Metrics         |Babelfy   |DBpedia Spotlight|MAG     |WAT        |
-|----------------|----------|-----------------|--------|-----------|
-|General Domain  						   |	
-|Precision       |**0.7278**|0.6746           |0.4265  |0.6121     |
-|Recall          |0.3719    |0.3575           |0.4166  |**0.5551** |
-|F1              |0.4923    |0.4673           |0.4215  |**0.5822** |
-|Specific Domain  						   |	
-|Precision       |0.8000    |**0.8471**       |0.1523  |0.7681     |
-|Recall          |0.4696    |0.6731           |0.1508  |**0.7468** |
-|F1              |0.5918    |0.7501           |0.1515  |**0.7573** |
+To showcase the utility of IndEL as a benchmark dataset, it was used to evaluate cutting-edge EL systems in multilingual settings using [the GERBIL framework](https://github.com/dice-group/gerbil). The EL systems included [Babelfy](http://babelfy.org/), [DBpedia Spotlight](https://www.dbpedia-spotlight.org/), [MAG](https://github.com/dice-group/AGDISTIS), [OpenTapioca](https://github.com/opentapioca/opentapioca), and [WAT](https://sobigdata.d4science.org/web/tagme/wat-api). Steps to perform the evaluation can be found [here](https://github.com/dice-group/gerbil/wiki/How-to-setup-GERBIL). Evaluation results are as follows:
+|Metrics         |Babelfy   |DBpedia Spotlight|MAG     |OpenTapioca|WAT        |
+|----------------|----------|-----------------|--------|-----------|-----------|
+|General Domain  						               |	
+|Precision       |**0.7278**|0.6746           |0.4265  |0.7984     |0.6121     |
+|Recall          |0.3719    |0.3575           |0.4166  |0.4105     |**0.5551** |
+|F1              |0.4923    |0.4673           |0.4215  |0.5423     |**0.5822** |
+|Specific Domain  						               |	
+|Precision       |0.8000    |**0.8471**       |0.1523  |0.6179     |0.7681     |
+|Recall          |0.4696    |0.6731           |0.1508  |0.0310	   |**0.7468** |
+|F1              |0.5918    |0.7501           |0.1515  |0.0590     |**0.7573** |
+The details of evaluation results can be observed [here](https://gerbil.aksw.org/gerbil/experiment?id=202404040005), and especially for MAG, it can be accessed [here](http://gerbil.aksw.org/gerbil/experiment?id=202312070004) and [here](http://gerbil.aksw.org/gerbil/experiment?id=202312070006).
 
 ### Another Evaluation with MAG
 To further investigate the impact of how Indonesian entities are presented in Wikidata on the EL systems' performance, another evaluation was performed by employing MAG, targeting the identification of NIL entities within both the general and specific domains. The evaluation results are distinguished into linked and Not in Lexicon (NIL) entities as follows:
