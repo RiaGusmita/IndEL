@@ -21,6 +21,7 @@ To showcase the utility of IndEL as a benchmark dataset, it was used to evaluate
 |Precision       |0.8000    |**0.8471**       |0.1523  |0.6179     |0.7681     |
 |Recall          |0.4696    |0.6731           |0.1508  |0.0310	   |**0.7468** |
 |F1              |0.5918    |0.7501           |0.1515  |0.0590     |**0.7573** |
+
 The details of evaluation results can be observed [here](https://gerbil.aksw.org/gerbil/experiment?id=202404040005), and especially for MAG, it can be accessed [here](http://gerbil.aksw.org/gerbil/experiment?id=202312070004) and [here](http://gerbil.aksw.org/gerbil/experiment?id=202312070006).
 
 ### Another Evaluation with MAG
