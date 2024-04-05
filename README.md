@@ -22,7 +22,7 @@ To showcase the utility of IndEL as a benchmark dataset, it was used to evaluate
 |Recall          |0.4696    |0.6731           |0.1508  |0.0310	   |**0.7468** |
 |F1              |0.5918    |0.7501           |0.1515  |0.0590     |**0.7573** |
 
-The details of evaluation results can be observed [here](https://gerbil.aksw.org/gerbil/experiment?id=202404040005), and especially for MAG, it can be accessed [here](http://gerbil.aksw.org/gerbil/experiment?id=202312070004) and [here](http://gerbil.aksw.org/gerbil/experiment?id=202312070006). In comparison, the performance of the mentioned EL systems on other benchmark datasets can be seen [here](https://gerbil.aksw.org/gerbil/overview). 
+The details of evaluation results can be observed [here](https://gerbil.aksw.org/gerbil/experiment?id=202404040005), and especially for MAG, it can be accessed [here](http://gerbil.aksw.org/gerbil/experiment?id=202312070004) and [here](http://gerbil.aksw.org/gerbil/experiment?id=202312070006). In comparison, the performance of the mentioned EL systems on other benchmark datasets can be seen [here](https://gerbil.aksw.org/gerbil/overview) by selecting D2KB as the experiment type. 
 
 ### Another Evaluation with MAG
 To further investigate the impact of how Indonesian entities are presented in Wikidata on the EL systems' performance, another evaluation was performed by employing MAG, targeting the identification of NIL entities within both the general and specific domains. The evaluation results are distinguished into linked and Not in Lexicon (NIL) entities as follows:
