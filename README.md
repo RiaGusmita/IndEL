@@ -14,7 +14,7 @@ To showcase the utility of IndEL as a benchmark dataset, it was used to evaluate
 |Metrics         |Babelfy   |DBpedia Spotlight|MAG     |OpenTapioca|WAT        |
 |----------------|----------|-----------------|--------|-----------|-----------|
 |General Domain  						               |	
-|Precision       |**0.7278**|0.6746           |0.4265  |0.7984     |0.6121     |
+|Precision       |0.7278    |0.6746           |0.4265  |**0.7984** |0.6121     |
 |Recall          |0.3719    |0.3575           |0.4166  |0.4105     |**0.5551** |
 |F1              |0.4923    |0.4673           |0.4215  |0.5423     |**0.5822** |
 |Specific Domain  						               |	
